@@ -26,6 +26,9 @@ function letters(text, step) {
   if (typeof text !== "string") {
     return "ERROR: kintamasis yra netinkammo tipo";
   }
+  if (text ===''){
+      return `ERROR: tekstas negali buti tuscias`;
+  }
   if (typeof step !== "number") {
     return "ERROR: Zingsnis yra netinkammo tipo ";
   }
@@ -49,15 +52,15 @@ for (let i=step -1; i < text.length; i+= step){
   return raides;
 }
 
-// console.log(letters(1561, 2), '-->', 'ERROR');
-// console.log(letters('labas', 'iki'), '-->', 'ERROR');
-// console.log(letters('labas', NaN), '-->', 'ERROR');
-// console.log(letters('labas', -Infinity), '-->', 'ERROR');
-// console.log(letters('labas', Infinity), '-->', 'ERROR');
-// console.log(letters('labas', 1.111111), '-->', 'ERROR');
-// console.log(letters('abc', 0), '-->', 'ERROR');
-// console.log(letters('abc', 4), '-->', 'ERROR');
-// console.log(letters('', 4), '-->', 'ERROR');
+console.log(letters(1561, 2), '-->', 'ERROR');
+console.log(letters('labas', 'iki'), '-->', 'ERROR');
+console.log(letters('labas', NaN), '-->', 'ERROR');
+console.log(letters('labas', -Infinity), '-->', 'ERROR');
+console.log(letters('labas', Infinity), '-->', 'ERROR');
+console.log(letters('labas', 1.111111), '-->', 'ERROR');
+console.log(letters('abc', 0), '-->', 'ERROR');
+console.log(letters('abc', 4), '-->', 'ERROR');
+console.log(letters('', 4), '-->', 'ERROR');
 
 console.log(letters('abcdefg', 2), '-->', 'bdf');
 console.log(letters('abcdefghijkl', 3), '-->', 'cfil');
