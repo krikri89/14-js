@@ -308,6 +308,7 @@ console.log(x, y); // ats 10 [ 2, 8, 4, 4, 5, 7 ]
 console.log('-------------random 2----------');
 const random = Math.floor(Math.random() *10);//floor apvalina o random douda random skaiciu [0,9]
 console.log(random);
+console.log('-----');
 
 const nuo =10;
 const iki = 19;
@@ -315,7 +316,7 @@ const randomNuoIki = Math.floor(Math.random()*(iki - nuo +1));
 console.log(randomNuoIki);
 
 for (let i =0; i<20; i++){
-    constrandomNuoIki = nuo +Math.floor(Math.random()*(iki - nuo +1));
+    const randomNuoIki = nuo +Math.floor(Math.random()*(iki - nuo +1));
     console.log(randomNuoIki);
 }
 function randomNumber (nuo, iki){
