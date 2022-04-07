@@ -39,17 +39,17 @@ console.log(false - 7);
 console.log(false * 7);
 console.log(false / 7);
 
-console.log('-------------');
+console.log('------14-------');
 console.log(2**4);
 console.log(7 % 2);
 console.log(13 % 14);
 
-console.log('----------------');
+console.log('-------15---------');
 let pinigineAfter = 0;
 console.log('Pinigine', pinigineAfter++);
-console.log('Pinigine', pinigineAfter++);
-console.log('Pinigine', pinigineAfter++);
-console.log('Pinigine', pinigineAfter++);
+// console.log('Pinigine', pinigineAfter++);
+// console.log('Pinigine', pinigineAfter++);
+// console.log('Pinigine', pinigineAfter++);
 
 console.log('------------------------');
 let pinigineBefore = 0;
@@ -71,7 +71,7 @@ console.log('skola', --skolaBefore);
 console.log('skola', --skolaBefore);
 console.log('skola', --skolaBefore);
 console.log('skola', --skolaBefore);
-
+console.log('------16------------');
 let a = 0
 a = a +1;
 console.log(a);
@@ -82,17 +82,17 @@ console.log(a);
 a = a + 1;
 console.log(a);
 
-console.log('--------------------');
+console.log('-------17-------------');
 let b =0;
 console.log(b);
-b = b + 3;
+b += 3;
 console.log(b);
 b++;
 b++;
 b++;
 console.log(b);
 
-console.log('-----------------');
+console.log('-----18------------');
 let c = 16;
 const d = 2;
 console.log(c);
