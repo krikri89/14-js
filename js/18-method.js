@@ -319,10 +319,10 @@ for (let i =0; i<20; i++){
     const randomNuoIki = nuo +Math.floor(Math.random()*(iki - nuo +1));
     console.log(randomNuoIki);
 }
-function randomNumber (nuo, iki){
-    return nuo +Math.floor(Math.random()*(iki - nuo +1));
+// function randomNumber (nuo, iki){
+//     return nuo +Math.floor(Math.random()*(iki - nuo +1));
    
-}
-for (let i =0; i<20; i++) {
-console.log(randomNumber(0, 10));
-}
+// }
+// for (let i =0; i<20; i++) {
+// console.log(randomNumber(0, 10));
+// }
